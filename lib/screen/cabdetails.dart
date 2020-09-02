@@ -50,6 +50,7 @@ class _cabdetailsState extends State<cabdetails> {
 
                     Text("captain:joye",style:GoogleFonts.poppins(fontWeight: FontWeight.w600,color: Colors.black),),
                     Text("\$ 20",style:GoogleFonts.poppins(fontWeight: FontWeight.bold,color: Colors.black),),
+                    Text("10% offered by our Captain",style:GoogleFonts.poppins(fontWeight: FontWeight.bold,color: Colors.black),),
                   ],
                 ),
 
@@ -84,6 +85,7 @@ class _cabdetailsState extends State<cabdetails> {
 
                     Text("captain:rave",style:GoogleFonts.poppins(fontWeight: FontWeight.w600,color: Colors.black),),
                     Text("\$ 10",style:GoogleFonts.poppins(fontWeight: FontWeight.bold,color: Colors.black),),
+                    Text("15% offered by our Captain",style:GoogleFonts.poppins(fontWeight: FontWeight.bold,color: Colors.black),),
                   ],
                 ),
 
@@ -119,6 +121,7 @@ class _cabdetailsState extends State<cabdetails> {
 
                     Text("captain:Raj",style:GoogleFonts.poppins(fontWeight: FontWeight.w600,color: Colors.black),),
                     Text("\$ 26",style:GoogleFonts.poppins(fontWeight: FontWeight.bold,color: Colors.black),),
+                    Text("5% offered by our Captain",style:GoogleFonts.poppins(fontWeight: FontWeight.bold,color: Colors.black),),
                   ],
                 ),
 

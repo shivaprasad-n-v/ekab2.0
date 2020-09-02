@@ -1,6 +1,7 @@
 import 'dart:math'show cos, sqrt, asin;
 
 
+import 'package:ekab/screen/cabdetails.dart';
 import 'package:ekab/screen/enterpriceamount.dart';
 import 'package:ekab/screen/otprecive.dart';
 import 'package:ekab/secrets.dart';
@@ -623,7 +624,7 @@ class _MapViewState extends State<MapView> {
                     onTap: (){
 
                       Navigator.push(
-                          context, MaterialPageRoute(builder: (context) => enteramount()));
+                          context, MaterialPageRoute(builder: (context) =>  cabdetails()));
 
                     },
                     child: Card(
@@ -669,7 +670,7 @@ class _MapViewState extends State<MapView> {
                     onTap: (){
 
                       Navigator.push(
-                          context, MaterialPageRoute(builder: (context) =>enteramount()));
+                          context, MaterialPageRoute(builder: (context) => cabdetails()));
 
                     },
                     child: Card(
@@ -715,7 +716,7 @@ color: Color(0xef2dbb54),
                     onTap: (){
 
                       Navigator.push(
-                          context, MaterialPageRoute(builder: (context) => enteramount()));
+                          context, MaterialPageRoute(builder: (context) =>  cabdetails()));
 
                     },
                     child: Card(
@@ -740,10 +741,13 @@ color: Color(0xef2dbb54),
                             Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                                Text("XUV/MUV(7 seaters)", style: TextStyle(
+                                Text("7 Seater Muv", style: TextStyle(
                                     fontWeight: FontWeight.bold, fontSize: 20),),
                                 SizedBox(height: 8,),
-                                Text("Price:350")
+                                Text("\$ 13,00",style: TextStyle(fontWeight: FontWeight.w800),),
+                                SizedBox(height: 8,),
+                                Text('6 min'),
+
 
                               ],
                             )
